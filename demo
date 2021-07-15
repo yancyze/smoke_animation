@@ -1,0 +1,16 @@
+<h1> index.html </h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href = "particle.css" >
+
+</head>
+<body onload="draw();">
+
+  <canvas id = "canvas"></canvas>
+  <div style="display:none;">
+     <img id="rocket" src="rocket.png" width="16" height="30">
+   </div>
+    <script src="particle.js"></script>
+</body>
+</html>
